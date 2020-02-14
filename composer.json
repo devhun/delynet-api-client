@@ -1,0 +1,13 @@
+{
+    "name": "devhun/delynet-api-client",
+    "description": "PHP API client for Delynet WEBFAX",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "devhun",
+            "email": "i@huns.kr"
+        }
+    ],
+    "require": {}
+}
