@@ -1,5 +1,10 @@
 # PHP API client for Delynet WEBFAX
 
+[![Build Status](https://travis-ci.org/devhun/delynet-api-client.svg?branch=master)](https://travis-ci.org/devhun/delynet-api-client)
+[![Latest Stable Version](https://poser.pugx.org/devhun/delynet-api-client/version)](https://packagist.org/packages/devhun/delynet-api-client)
+[![Total Downloads](https://poser.pugx.org/devhun/delynet-api-client/downloads)](https://packagist.org/packages/devhun/delynet-api-client)
+[![License](https://poser.pugx.org/devhun/delynet-api-client/license)](https://packagist.org/packages/devhun/delynet-api-client)
+
 ## Install using composer
 
 Open a shell, `cd` to your poject and type:
