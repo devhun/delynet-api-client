@@ -1,0 +1,13 @@
+language: php
+php:
+  - '7.1'
+
+before_script:
+  - composer self-update
+  - composer install
+
+script:
+  - php -S localhost:8000 -t tests/ &
+  - vendor/bin/phpunit
+  - sleep 5
+  - ADAPTER=GuzzleHttpAdapter vendor/bin/phpunit

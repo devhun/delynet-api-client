@@ -54,9 +54,4 @@ class Fax extends AbstractApiCall
 
         return $this->adapter->post('FaxResultType2.asp', ['a'=>json_encode($args)]);
     }
-
-    public function receive()
-    {
-
-    }
 }
